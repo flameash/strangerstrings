@@ -1,9 +1,9 @@
 /*Global and landing page CSS*/
 
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 
@@ -33,24 +33,30 @@ body.modal-open div.modal-backdrop {
 /*Navbar CSS*/
 
 #genericnavbar {
-	background-color: #2f2626;
-  font-family: Montserrat, sans-serif;
+  background-color: #2f2626;
 }
 
+.navbar {
+    font-family: Montserrat, sans-serif;
+}
 
 #navbarbrand {
-	font-size: 20px;
-	color: white;
+  font-size: 20px;
+  color: white;
 }
 
-#myNavbar {
-  padding-left: 25px;
-}
 
 #genericnavbar li a:hover {
     background-color: #19647E;
 }
 
+#myNavbar {
+  margin-right: 15px;
+}
+
+#myNavbaraccessory {
+  margin-right: 25px;
+}
 
 #accessoryheader {
   margin-left: 10px;
@@ -66,37 +72,34 @@ body.modal-open div.modal-backdrop {
     color: #fff;
 }
 
-@media only screen and (max-width: 800px) {
+@media (max-width: 600px) {
     .carousel-caption {
         display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
     }
     .sidenav {
       display: none;
     }
-
-    #leftcontrol, #rightcontrol {
-    display: none;
-    }
-  }
-@media only screen and (min-width:768px) and (max-width: 992px) {
-  
-  .sidenav {
-    display: none;
-  }
-
-
-  #searchmodal {
-    display: none;
-  }
-
-    #leftcontrol, #rightcontrol {
-    display: none;
 }
+
+
+@media only screen and (min-width: 100px) and (max-width: 800px){ /*hide the sidenav*/
+  #sidenav, #sidenavguitars, #sidenavdrumkits, #sidenav, #sidenavaccessories, #leftcontrol, #rightcontrol {
+    display: none;
+  }
+}
+
+
 
 
 #pagecontainer {
   padding-right: 0;
   padding-left: 0;
+}
+
+#rowcontainer {
+  margin-right: 20px;
+  margin-bottom: 50px;
+  margin-top: 0;
 }
 
 
@@ -145,38 +148,25 @@ body.modal-open div.modal-backdrop {
 }
 
 #Email {
-	color: black;
+  color: black;
 }
 
  /*Page Content CSS*/
-
-#guitarbrandradio {
-  width: 100px;
-}
-
-#drumkitradio {
-  width: 100px;
-}
-
-#accessoryradio {
-  width: 100px;
-}
-
 .sidenav {
   background-color: #484538;
   height: 100%;
   margin-top: 55px;
-  font-size: 15px;
+  font-size: 13px;
   color: white;
-  width: 100%;
+  padding: 0;
 }
 
 #sidenavdrumkits {
-  padding-left: 35px;
+  padding-left: 25px;
 }
 
 #sidenavguitars {
-  padding-left: 35px;
+  padding-left: 25px;
 }
 
 #sidenavaccessories {
