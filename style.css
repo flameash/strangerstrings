@@ -74,7 +74,7 @@ body.modal-open div.modal-backdrop {
       display: none;
     }
 
-    .right.carousel-control, .left.carousel-control {
+    #leftcontrol, #rightcontrol {
     display: none;
     }
   }
@@ -89,7 +89,7 @@ body.modal-open div.modal-backdrop {
     display: none;
   }
 
-   .right.carousel-control, .left.carousel-control {
+    #leftcontrol, #rightcontrol {
     display: none;
 }
 
