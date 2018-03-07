@@ -76,7 +76,7 @@ body.modal-open div.modal-backdrop {
 
     .right.carousel-control, .left.carousel-control {
     display: none;
-}
+    }
   }
 @media only screen and (min-width:768px) and (max-width: 992px) {
   
@@ -88,6 +88,9 @@ body.modal-open div.modal-backdrop {
   #searchmodal {
     display: none;
   }
+
+   .right.carousel-control, .left.carousel-control {
+    display: none;
 }
 
 
