@@ -1,0 +1,567 @@
+/*Global and landing page CSS*/
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+img {
+  width: 100%;
+}
+
+
+footer {
+    background-color: #2d2d30;
+    color: #f5f5f5;
+    padding: 0;
+    margin: 0;
+}
+
+
+hr {
+  width: 100%;
+}
+
+body.modal-open div.modal-backdrop { 
+    z-index: 0; 
+}
+
+
+
+/*Navbar CSS*/
+
+#genericnavbar {
+	background-color: #2f2626;
+  font-family: Montserrat, sans-serif;
+}
+
+
+#navbarbrand {
+	font-size: 20px;
+	color: white;
+}
+
+#myNavbar {
+  padding-left: 25px;
+}
+
+#genericnavbar li a:hover {
+    background-color: #19647E;
+}
+
+
+#accessoryheader {
+  margin-left: 10px;
+}
+
+/*Carousel CSS*/
+.carousel-inner img {
+    width: 100%;
+    margin: auto;
+}
+
+.carousel-caption h3 {
+    color: #fff;
+}
+
+@media only screen and (max-width: 800px) {
+    .carousel-caption {
+        display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
+    }
+    .sidenav {
+      display: none;
+    }
+  }
+@media only screen and (min-width:768px) and (max-width: 992px) {
+  
+  .sidenav {
+    display: none;
+  }
+
+
+  #searchmodal {
+    display: none;
+  }
+}
+
+
+#pagecontainer {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+
+/*Social Media CSS*/
+
+#socialbuttons {
+  text-align: left;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 20px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa-facebook:hover {
+    background-color: #dfe3ee;
+    opacity: 0.9;
+}
+.fa-twitter:hover {
+    background-color: #0084b4;
+    opacity: 0.9;
+}
+
+.fa-instagram:hover {
+    background-color: #fb3958;
+    opacity: 0.9;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+  background: #cd486b;
+  color: white;
+}
+
+#Email {
+	color: black;
+}
+
+ /*Page Content CSS*/
+
+#guitarbrandradio {
+  width: 100px;
+}
+
+#drumkitradio {
+  width: 100px;
+}
+
+#accessoryradio {
+  width: 100px;
+}
+
+.sidenav {
+  background-color: #484538;
+  height: 100%;
+  margin-top: 55px;
+  font-size: 15px;
+  color: white;
+  width: 100%;
+}
+
+#sidenavdrumkits {
+  padding-left: 35px;
+}
+
+#sidenavguitars {
+  padding-left: 35px;
+}
+
+#sidenavaccessories {
+  padding-left: 25px;
+}
+
+
+#brandbutton {
+  width: 100%;
+  font-size: 20px;
+}
+
+
+.pagecontent {
+  height: 100%;
+  margin-top: 55px;
+  padding: 0;
+}
+
+.panel-body {
+  background-color: black;
+  color: white;
+}
+
+.panel1 {
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+}
+
+
+
+#guitar1 {
+  margin-top: 10px;
+}
+
+#guitar2 {
+  margin-top: 10px;
+}
+
+#guitar3 {
+  margin-top: 10px;
+}
+
+#guitar4 {
+  margin-top: 10px;
+}
+
+#guitar5 {
+  margin-top: 10px;
+}
+
+#guitar6 {
+  margin-top: 10px;
+}
+
+#guitar7 {
+  margin-top: 10px;
+}
+
+#guitar8 {
+  margin-top: 10px;
+}
+
+#guitar9{
+  margin-top: 10px;
+}
+
+
+#guitar1sound {
+  width: 80%;
+}
+
+#guitar1cosmetics {
+  width: 90%;
+}
+
+#guitar1maintenance {
+  width: 60%;
+}
+
+#guitar1magnet {
+  width: 70%;
+}
+
+#guitar2sound {
+  width: 85%;
+}
+
+#guitar2cosmetics {
+  width: 95%;
+}
+
+#guitar2maintenance {
+  width: 78%;
+}
+
+#guitar2magnet {
+  width: 90%;
+}
+
+#guitar3sound {
+  width: 83%;
+}
+
+#guitar3cosmetics {
+  width: 86%;
+}
+
+#guitar3maintenance {
+  width: 50%;
+}
+
+#guitar3magnet {
+  width: 79%;
+}
+
+#guitar4sound {
+  width: 100%;
+}
+
+#guitar4cosmetics {
+  width: 100%;
+}
+
+#guitar4maintenance {
+  width: 50%;
+}
+
+#guitar4magnet {
+  width: 100%;
+}
+
+#guitar5sound {
+  width: 78%;
+}
+
+#guitar5cosmetics {
+  width: 88%;
+}
+
+#guitar5maintenance {
+  width: 79%;
+}
+
+#guitar5magnet {
+  width: 90%;
+}
+
+#guitar6sound {
+  width: 81%;
+}
+
+#guitar6cosmetics {
+  width: 81%;
+}
+
+#guitar6maintenance {
+  width: 82%;
+}
+
+#guitar6magnet {
+  width: 91%;
+}
+
+#guitar7sound {
+  width: 85%;
+}
+
+#guitar7cosmetics {
+  width: 90%;
+}
+
+#guitar7maintenance {
+  width: 75%;
+}
+
+#guitar7magnet {
+  width: 89%;
+}
+
+#guitar8sound {
+  width: 85%;
+}
+
+#guitar8cosmetics {
+  width: 90%;
+}
+
+#guitar8maintenance {
+  width: 75%;
+}
+
+#guitar8magnet {
+  width: 89%;
+}
+
+#guitar9sound {
+  width: 85%;
+}
+
+#guitar9cosmetics {
+  width: 90%;
+}
+
+#guitar9maintenance {
+  width: 75%;
+}
+
+#guitar9magnet {
+  width: 89%;
+}
+
+#drums1 {
+  margin-top: 10px;
+}
+
+#drums2 {
+  margin-top: 10px;
+}
+
+#drums3 {
+  margin-top: 10px;
+}
+
+#drums4 {
+  margin-top: 10px;
+
+}
+
+#drum1sound {
+  width: 80%;
+}
+
+#drum1cosmetics {
+  width: 86%;
+}
+
+#drum1maintenance {
+  width: 70%;
+}
+
+#drum1magnet {
+  width: 80%;
+}
+
+#drum2sound {
+  width: 85%;
+}
+
+#drum2cosmetics {
+  width: 76%;
+}
+
+#drum2maintenance {
+  width: 81%;
+}
+
+#drum2magnet {
+  width: 65%;
+}
+
+#drum3sound {
+  width: 60%;
+}
+
+#drum3cosmetics {
+  width: 55%;
+}
+
+#drum3maintenance {
+  width: 50%;
+}
+
+#drum3magnet {
+  width: 69%;
+}
+
+#drum4sound {
+  width: 75%;
+}
+
+#drum4cosmetics {
+  width: 68%;
+}
+
+#drum4maintenance {
+  width: 73%;
+}
+
+#drum4magnet {
+  width: 61%;
+}
+
+#accessory1 {
+  margin-top: 10px;
+}
+
+#accessory2 {
+  margin-top: 10px;
+}
+
+#accessory3 {
+  margin-top: 10px;
+}
+
+#accessory4 {
+  margin-top: 10px;
+
+}
+
+#accessory5 {
+  margin-top: 10px;
+
+}
+
+#accessory1sound {
+  width: 80%;
+}
+
+#accessory1cosmetics {
+  width: 90%;
+}
+
+#accessory1maintenance {
+  width: 78%;
+}
+
+#accessory1magnet {
+  width: 86%;
+}
+
+#accessory2sound {
+  width: 91%;
+}
+
+#accessory2cosmetics {
+  width: 87%;
+}
+
+#accessory2maintenance {
+  width: 90%;
+}
+
+#accessory2magnet {
+  width: 75%;
+}
+
+#accessory3sound {
+  width: 100%;
+}
+
+#accessory3cosmetics {
+  width: 100%;
+}
+
+#accessory3maintenance {
+  width: 50%;
+}
+
+#accessory3magnet {
+  width: 100%;
+}
+
+#accessory4sound {
+  width: 100%;
+}
+
+#accessory4cosmetics {
+  width: 100%;
+}
+
+#accessory4maintenance {
+  width: 80%;
+}
+
+#accessory4magnet {
+  width: 100%;
+}
+
+#accessory5sound {
+  width: 75%;
+}
+
+#accessory5cosmetics {
+  width: 80%;
+}
+
+#accessory5maintenance {
+  width: 70%;
+}
+
+#accessory5magnet {
+  width: 75%;
+}
