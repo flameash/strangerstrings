@@ -89,13 +89,13 @@ body.modal-open div.modal-backdrop {
 }
 
 @media only screen and (min-width:768px) and (max-width: 1200px) {
-  #searchmodal {
+  #searchmodal  {
     display: none;
   }
 }
 
 @media only screen and (min-width:100px) and (max-width: 799px) {
-  #searchmodal {
+  #searchmodal, #leftcontrol, #rightcontrol {
     display: none;
   }
 }
