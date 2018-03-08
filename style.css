@@ -72,22 +72,21 @@ body.modal-open div.modal-backdrop {
     color: #fff;
 }
 
-@media (max-width: 600px) {
+@media only screen and (max-width: 800px) {
     .carousel-caption {
         display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
     }
     .sidenav {
       display: none;
     }
-}
-
-
-@media only screen and (min-width: 100px) and (max-width: 800px){ /*hide the sidenav*/
-  #sidenav, #sidenavguitars, #sidenavdrumkits, #sidenav, #sidenavaccessories, #leftcontrol, #rightcontrol {
+  }
+@media only screen and (min-width:768px) and (max-width: 992px) {
+  
+  .sidenav, #leftcontrol, #rightcontrol {
     display: none;
   }
-}
 
+}
 
 
 
@@ -96,11 +95,6 @@ body.modal-open div.modal-backdrop {
   padding-left: 0;
 }
 
-#rowcontainer {
-  margin-right: 20px;
-  margin-bottom: 50px;
-  margin-top: 0;
-}
 
 
 /*Social Media CSS*/
